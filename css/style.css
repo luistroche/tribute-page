@@ -1,2 +1,11 @@
 /* style for tribute page San Martin */
 h1 {font-family: 'Satisfy', cursive;}
+.icon-image {	
+	border-color: white;
+	border-width: 0.5px;
+	border-style: solid;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	margin-top: -15px;
+}

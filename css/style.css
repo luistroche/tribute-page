@@ -1,5 +1,20 @@
 /* style for tribute page San Martin */
-h1 {font-family: 'Satisfy', cursive;}
+/* HTML elements */
+body {
+	background: url(/img/cordillera_de_los_andes.jpg) right top no-repeat;
+}
+h1 {
+	font-family: 'Satisfy', cursive;
+}
+
+/* ID elements */
+#top-section {
+	padding-top: 70px;
+	background: white;
+	
+}
+
+/* CLASS elements */
 .icon-image {	
 	border-color: white;
 	border-width: 0.5px;
@@ -11,8 +26,16 @@ h1 {font-family: 'Satisfy', cursive;}
 }
 .page-width {
 	width: 80%;
+}
+.img-main {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+.second-section {
+	background: white;
+}
+.third-section {
+	background: white;
+}
 
-}
-#top-section {
-	padding-top: 70px;
-}

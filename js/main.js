@@ -1,7 +1,13 @@
 $(document).ready(function() {
+	var navigationHeight = $('nav').outerHeight() + 10;
 	$('.smooth-scrolling').click(function(anulandoDefault){
 
-		console.log('probando el click');
+		var linkFromHref = $(this).attr('href');
+		
+		$('html, body').animate({
+			scrollTop: $(linkFromHref).offset().top - navigationHeight
+
+		}, 1500);
 		
 		anulandoDefault.preventDefault();
 	});

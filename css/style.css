@@ -3,6 +3,7 @@
 
 h1 {
 	font-family: 'Satisfy', cursive;
+	color: white;
 }
 
 /* ID elements */
@@ -23,7 +24,6 @@ h1 {
 	width: 80%;
 }
 .img-main {
-	width: 40vh;
 	height: 40vh;
 	margin: 0 auto;
 }

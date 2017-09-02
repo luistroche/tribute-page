@@ -26,6 +26,8 @@ h1 {
 .img-main {
 	height: 40vh;
 	margin: 0 auto;
+	border-radius: 70%;
+	border:  inset 1px white;
 }
 .first-section { 
 	background: url(/img/cordillera_de_los_andes.jpg); 

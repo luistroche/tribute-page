@@ -10,8 +10,8 @@ header {
 }
 footer {
 	background: #384251;
-	height: 100px;
 	border-top: solid 2px #292b2d;
+	padding: 20px;
 }
 
 /* ID elements */
@@ -39,7 +39,7 @@ footer {
 	border:  inset 1px white;
 }
 .first-section { 
-	background: url(/img/cordillera_de_los_andes.jpg); 
+	background: url(/img/cordillera_de_los_andes-1.jpg); 
 	background-position: center center;
 	background-size: cover;
 	height: 95vh;
@@ -50,5 +50,8 @@ footer {
 }
 .third-section {
 	background: white;
+}
+.footer-list li{
+	color: white;
 }
 

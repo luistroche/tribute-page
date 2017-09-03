@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var navigationHeight = $('nav').outerHeight() + 10;
+	var navigationHeight = $('nav').outerHeight() + 15;
 	$('.smooth-scrolling').click(function(anulandoDefault){
 
 		var linkFromHref = $(this).attr('href');

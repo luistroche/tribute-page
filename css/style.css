@@ -10,10 +10,12 @@ h1 {
 h2 {
 	font-family: 'Satisfy', cursive;
 	font-size: 3em;
+	padding: 20px;
 }
 h3 {
 	font-family: 'Parisienne', cursive;
 	font-size: 3em;
+	padding: 10px;
 }
 h4	{
 
@@ -44,6 +46,12 @@ footer {
 }
 .img-main {
 	height: 40vh;
+	margin: 0 auto;
+	border-radius: 70%;
+	border:  inset 1px white;
+}
+.img-end {
+	height: 20vh;
 	margin: 0 auto;
 	border-radius: 70%;
 	border:  inset 1px white;

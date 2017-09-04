@@ -3,8 +3,9 @@
 
 h1 {
 	font-family: 'Satisfy', cursive;
-	font-size: 3.2em;
+	font-size: 3.5em;
 	color: white;
+	padding: 10px 0px  0px 0px;
 
 }
 h2 {
@@ -22,6 +23,10 @@ h4	{
 }
 header {
 		border-bottom: solid 2px #292b2d;
+}
+p {
+	font-family: 'Faustina', serif;
+	font-size: larger;
 }
 footer {
 	background: #384251;
@@ -48,13 +53,13 @@ footer {
 	height: 40vh;
 	margin: 0 auto;
 	border-radius: 70%;
-	border:  inset 1px white;
+	border: solid 0.2em white;
 }
 .img-end {
-	height: 20vh;
+	height: 25vh;
 	margin: 0 auto;
-	border-radius: 70%;
-	border:  inset 1px white;
+	border-radius: 60%;
+	border:solid 1px black;
 }
 
 .first-section { 
@@ -62,6 +67,10 @@ footer {
 	background-position: center center;
 	background-size: cover;
 	height: 90vh;
+}
+.shade {
+	color: white; 
+	text-shadow: 2px 2px 8px black;
 }
 .second-section {
 	background: white;
@@ -73,4 +82,4 @@ footer {
 .footer-list li{
 	color: white;
 }
-
+.navbar-style{ font-family: 'Alice', cursive; text-align: center; font-size: 1.5em; margin-right: 20px}
